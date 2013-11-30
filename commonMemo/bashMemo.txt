@@ -1,0 +1,11 @@
+# jump to next right word
+Esc + f
+
+# jump to next left word
+Esc + b
+
+# delete right side word
+Esc + d
+
+# recover deleted word
+ctrl + y

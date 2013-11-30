@@ -1,0 +1,7 @@
+$ perl -ne 'if($_ =~ /\[ERROR\] \[(.*)\]/){ print "$1\n"};' data.txt
+detail: data check ng
+detail: data check ng
+
+$ perl -ne 'if($_ =~ /\[[^\]]*\] \[ERROR\] \[(.*)\]/){print "error has detected :line $.:$1\n"}' data.txt
+error has detected :line 3:detail: data check ng
+error has detected :line 4:detail: data check ng

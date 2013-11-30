@@ -1,0 +1,9 @@
+# search character at the line 
+f + (char)
+f + (char) + ; // to next char
+
+# jump to pair branket
+%
+
+# supplement file name (insert mode)
+ctrl X + ctrl F
