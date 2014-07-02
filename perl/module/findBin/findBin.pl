@@ -1,4 +1,4 @@
-#!/usr/loca/bin/perl
+#!/usr/bin/perl
 
 use FindBin;
 
